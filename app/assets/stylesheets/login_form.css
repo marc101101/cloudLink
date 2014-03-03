@@ -1,0 +1,351 @@
+<style> body {
+  background-color: #006363;
+  overflow-x: hidden;
+}
+img {
+  border: 0px solid black;
+  vertical-align: middle;
+}
+.header {
+  width: 100%;
+  height: 300px;
+  background-image: url(header.png);
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+.headline {
+  text-align: center
+}
+.button-login {
+  width: 22%;
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 50%;
+  margin-left: 39%;
+  background: #FF8040;
+  background-position: 50% 50%;
+  color: #006363;
+  font-family: 'Doppio One', sans-serif;
+  font-size: 20px;
+  border: hidden;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+  text-align: center
+}
+.button-registieren {
+  width: 22%;
+  height: 30px;
+  margin-right: 50%;
+  margin-left: 39%;
+  background: #FF8040;
+  background-position: 50% 50%;
+  color: #006363;
+  font-family: 'Doppio One', sans-serif;
+  font-size: 20px;
+  border: hidden;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+  text-align: center
+}
+.button-about {
+  width: 22%;
+  height: 30px;
+  margin-right: 50%;
+  margin-left: 39%;
+  background: #FF8040;
+  background-size: 100%, 100%;
+  background-position: 50% 50%;
+  color: #006363;
+  font-family: 'Doppio One', sans-serif;
+  font-size: 20px;
+  border: hidden;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+  text-align: center
+}
+.specIn {
+  float: left;
+  background-color: white;
+  font-family: 'Doppio One', sans-serif;
+  font-size: 15px;
+  color: #006363;
+  border: 0px;
+  width: 45%;
+  height: 10%;
+  margin-top: 3%
+}
+.upperLine {
+  width: 100%;
+  height: 300px;
+  margin-top: 15px;
+}
+.centerLine {
+  width: 100%;
+  height: 300px;
+  margin-top: 15px;
+}
+.downLine {
+  width: 100%;
+  height: 150px;
+  margin-top: 15px;
+}
+.logo {
+  width: 25%;
+  height: 300px;
+  margin-left: 9%;
+  background: #FF8040;
+  float: left;
+}
+.block {
+  width: 25%;
+  height: 300px;
+  margin-left: 15px;
+  background: #FF8040;
+  float: left;
+}
+.cate {
+  width: 11%;
+  height: 150px;
+  margin-left: 9%;
+  background: #FF8040;
+  float: left;
+}
+.cate2 {
+  width: 11%;
+  height: 150px;
+  margin-left: 15px;
+  background: #FF8040;
+  float: left;
+}
+.cate3 {
+  width: 17.3%;
+  height: 150px;
+  margin-left: 15px;
+  background: #FF8040;
+  float: left;
+}
+.userdata {
+  width: 51%;
+  height: 300px;
+  background: #FF8040;
+  color: white;
+  float: right;
+  margin-right: 14%;
+}
+.overview {
+  width: 80%;
+  height: 80px;
+  background: #FF8040;
+  color: white;
+  font-family: 'Doppio One', sans-serif;
+  font-size: 16px;
+  border: hidden;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10%;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+}
+.fav {
+  width: 80%;
+  height: 80px;
+  background: #FF8040;
+  color: white;
+  font-family: 'Doppio One', sans-serif;
+  font-size: 16px;
+  border: hidden;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 10%;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+}
+.advice {
+  width: 80%;
+  height: 80px;
+  background: #FF8040;
+  color: white;
+  font-family: 'Doppio One', sans-serif;
+  font-size: 16px;
+  border: hidden;
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 10%;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  overflow: hidden;
+}
+.overview:hover {
+  height: 400px;
+  margin-top: 10%;
+}
+.fav:hover {
+  height: 400px;
+}
+.advice:hover {
+  height: 400px;
+}
+.button:hover {
+  -webkit-opacity: 0.75;
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+  font-size: 20px;
+}
+.button-2:hover {
+  -webkit-opacity: 0.75;
+  -moz-opacity: 0.75;
+  opacity: 0.75;
+  font-size: 20px;
+}
+h1 {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 50px;
+  color: #FF8040;
+}
+h2 {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 15px;
+  color: #FF8040;
+}
+h3 {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 15px;
+  color: #006363;
+}
+h4 {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 16px;
+  color: #006363;
+}
+h5 {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 40px;
+  color: #006363;
+}
+h6 {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 50px;
+  color: #006363;
+}
+h7 {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 15px;
+  color: #006363;
+}
+h8 {
+  font-family: 'Doppio One', sans-serif;
+  font-size: 30px;
+  margin-top: 10px;
+  color: #006363;
+}
+.button-login:hover {
+  height: 135px;
+}
+.button-registieren:hover {
+  width: 35%;
+  margin-left: 32%;
+  height: 148px;
+}
+.button-about:hover {
+  height: 130%;
+  width: 40%;
+  margin-left: 30%;
+}
+}
+@media screen (max-height: 450px) {
+  .header {
+    overflow: hidden;
+    height: 10px;
+  }
+  .button-about:hover {
+    height: 130%;
+    width: 80%;
+    margin-left: 30%;
+  }
+  .arrow {
+    margin-left: 10%;
+    width: 20%;
+    height: 40%;
+  }
+}
+@media (max-width: 760px) {
+  .button-login {
+    margin-left: 30%;
+    width: 40%;
+  }
+  .button-registieren {
+    margin-left: 30%;
+    width: 40%;
+  }
+  .button-about {
+    margin-left: 30%;
+    width: 40%;
+  }
+  .button-about:hover {
+    margin-left: 5%;
+    width: 90%;
+  }
+  .button-registieren:hover {
+    margin-left: 15%;
+    width: 70%;
+  }
+}
+@media (max-width: 450px) {
+  .button-login {
+    margin-left: 7%;
+    width: 87%;
+  }
+  .button-registieren {
+    margin-left: 7%;
+    width: 87%;
+  }
+  .button-about {
+    margin-left: 7%;
+    width: 87%;
+  }
+  .button-about:hover {
+    height: 130%;
+    width: 87%;
+    margin-left: 7%;
+  }
+  .button-registieren:hover {
+    width: 87%;
+    margin-left: 7%;
+    height: 160px;
+  }
+  input {
+    background-color: white;
+    font-family: 'Doppio One', sans-serif;
+    font-size: 15px;
+    color: #006363;
+    border: 0px;
+    width: 45%;
+    height: 10%;
+    margin-top: 3%
+  }
+}
+</style>
